@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "icon" href = "./images/lista-de-tarefas.png" type = "img/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/e3c5453e4f.js" crossorigin="anonymous"></script>
+    <title>To-do list</title>
+</head>
+<body>
+    <section>
+        <div class = "img-box">
+            <img src="./images/works.jpg" alt = "to-do list">
+        </div>
+
+        <div class = "content-box">
+
+            <div class = "form-box">
+                <h2>Lista de Tarefas</h2>
+                <form>
+                    <div class = "input-box">
+                        <input type = "text" placeholder = "Adicione sua nova tarefa">
+                        <button class = "btn"><i class = "fas fa-plus"></i></button>
+                    </div>
+
+                    <ul class = "todo-box">
+                        <!-- Dados vindo do local Storage -->
+                    </ul>
+                    <div class = "pending">
+                        <span>Você possui <span class="number-pending"></span> pendências</span>
+                        <button class = "btn">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src = "javascript/script.js"></script> 
+
+</body>
+</html>
